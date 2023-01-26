@@ -10,8 +10,8 @@ database = $dir/index.txt
 crlnumber = $dir/crl_number
 certificate = $dir/ca.crt
 private_key = $dir/ca-key.pem
-default_days = 3650
-default_crl_days = 30
+default_days = {{ ca_default_days }}
+default_crl_days = {{ ca_default_crl_days }}
 default_md = sha256
 preserve = no
 

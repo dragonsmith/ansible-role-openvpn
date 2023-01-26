@@ -1,0 +1,4 @@
+# Defaults for CA configuration
+
+ca_default_days: 3650
+ca_default_crl_days: 30
